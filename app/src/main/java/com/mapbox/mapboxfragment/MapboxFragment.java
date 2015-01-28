@@ -117,7 +117,7 @@ public class MapboxFragment extends MapFragment {
                 String tileContent = getContent(url);
                 JSONObject tileJSON = new JSONObject(tileContent);
 
-                Log.d(TAG, "JSON retreived");
+                Log.d(TAG, "JSON retrieved");
 
                 JSONArray centerJSON = tileJSON.getJSONArray("center");
                 Log.d(TAG, "center: " + centerJSON.toString());
